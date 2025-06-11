@@ -27,10 +27,10 @@ export const Hero = () => {
           Tạo Nên Sự Lười Biến Cho Bạn, Và Sự Giàu Có Cho Tôi Và Bạn, Trình Thực Thi Script Roblox PC Miễn Phí, Đến Từ Việt Nam.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-4">
-          <Link href="/get-started" className="w-full md:w-1/3">
-            <Button className="w-full">Bắt Đầu</Button>
-          </Link>
+        <a href="/get-started" className="w-full md:w-1/3">
+  <Button className="w-full">Bắt Đầu</Button>
+</a>
+
 
           <a
             rel="noreferrer noopener"
