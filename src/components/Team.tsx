@@ -69,6 +69,10 @@ export const Team = () => {
         Phát Triển
       </h2>
 
+      <p className="mt-4 mb-10 text-xl text-muted-foreground">
+        Được Phát Triển Bởi Những Người Đam Mê Công Nghệ.
+      </p>
+
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
         {teamList.map(
           ({ imageUrl, name, position, socialNetworks }: TeamProps) => (

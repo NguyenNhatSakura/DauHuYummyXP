@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Dễ sử dụng",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Giao diện thân thiện, inject nhanh chóng chỉ với vài cú nhấp chuột – phù hợp cho cả người mới và pro.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Cộng đồng hỗ trợ",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Tham gia cộng đồng Discord sôi động, nhận hỗ trợ trực tiếp và chia sẻ script cùng bạn bè.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Tối ưu hiệu suất",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Hoạt động mượt mà trên mọi cấu hình PC, không gây lag hoặc crash khi sử dụng lâu dài.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Miễn phí & Không quảng cáo",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Sử dụng hoàn toàn miễn phí, không dính quảng cáo gây phiền toái – trải nghiệm sạch sẽ và gọn gàng.",
   },
 ];
 
@@ -41,15 +41,14 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        Những Gì{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+          Mà{" "}
         </span>
-        Step-by-Step Guide
+        Chúng Tối Có
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Tất Cả Những Gì Bạn Cần Để Tận Hưởng Trải Nghiệm Tốt Nhất Với Executor Của Chúng Tôi.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
