@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Giao diện thân thiện",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Thiết kế hiện đại, dễ sử dụng, tối ưu trải nghiệm người dùng từ người mới đến chuyên nghiệp.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Tương thích mạnh mẽ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Hoạt động ổn định trên Roblox PC, hỗ trợ đa dạng script LuaU, không gây crash game.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Bảo mật và Miễn phí",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Không chứa mã độc, không quảng cáo ẩn, sử dụng miễn phí 100% và cập nhật thường xuyên.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Dark/Light UI",
+  "Tích hợp Discord",
+  "Hỗ trợ LuaU script",
+  "Inject nhanh chóng",
+  "Không quảng cáo",
+  "Anti-crash",
+  "Cập nhật thường xuyên",
+  "Tương thích Roblox PC",
+  "Giao diện tối giản",
 ];
 
 export const Features = () => {
