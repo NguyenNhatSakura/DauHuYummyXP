@@ -28,15 +28,15 @@ export const Hero = () => {
         </p>
 
         <div className="flex flex-col md:flex-row gap-4">
-          <a href="/get-started" className="w-full md:w-1/3">
+          <Link href="/get-started" className="w-full md:w-1/3">
             <Button className="w-full">Bắt Đầu</Button>
-          </a>
+          </Link>
 
           <a
             rel="noreferrer noopener"
-            href="3gg"
+            href="https://discord.gg/3gg"
             target="_blank"
-            className={`w-full md:w-1/3 ${buttonVariants({ variant: "outline" })}`}
+            className={buttonVariants({ variant: "outline" }) + " w-full md:w-1/3 text-center"}
           >
             Tham Gia Discord
           </a>
@@ -49,7 +49,7 @@ export const Hero = () => {
       </div>
 
       {/* Shadow effect */}
-      <div className="shadow"></div>
+      <div className="shadow" />
     </section>
   );
 };
