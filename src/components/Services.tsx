@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Inject Script Mượt Mà",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Tốc độ inject cực nhanh, không giật lag, tương thích tốt với đa số script LuaU hiện nay trên Roblox.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Quản Lý Script Dễ Dàng",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Tổ chức, lưu trữ và chạy nhiều script trong cùng một giao diện đơn giản nhưng hiện đại.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Tự Động Hóa & Auto Execute",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Hỗ trợ auto-execute cho script yêu thích và tự động khởi chạy khi mở Roblox.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +36,11 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
-            </span>
-            Services
+              Dịch Vụ{" "}</span>Nổi Bật Của Yummy Executor
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Trải nghiệm hệ thống executor hiện đại, đầy đủ tính năng cần thiết để bạn làm chủ Roblox và tối ưu hoá việc sử dụng script.
           </p>
 
           <div className="flex flex-col gap-8">

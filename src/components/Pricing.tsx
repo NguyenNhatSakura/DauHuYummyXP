@@ -26,48 +26,48 @@ interface PricingProps {
 
 const pricingList: PricingProps[] = [
   {
-    title: "Free",
+    title: "Miễn phí",
     popular: 0,
     price: 0,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get Started",
+      "Trải nghiệm cơ bản các tính năng của Yummy Executor mà không cần trả phí.",
+    buttonText: "Dùng thử ngay",
     benefitList: [
-      "1 Team member",
-      "2 GB Storage",
-      "Upto 4 pages",
-      "Community support",
-      "lorem ipsum dolor",
+      "Inject nhanh",
+      "Không cần key",
+      "Giao diện đơn giản",
+      "Hỗ trợ cộng đồng",
+      "Cập nhật định kỳ",
     ],
   },
   {
-    title: "Premium",
+    title: "Pro",
     popular: 1,
-    price: 5,
+    price: 49,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+      "Bản đầy đủ tính năng, tối ưu hiệu suất và hỗ trợ cao nhất cho người dùng chuyên nghiệp.",
+    buttonText: "Nâng cấp ngay",
     benefitList: [
-      "4 Team member",
-      "4 GB Storage",
-      "Upto 6 pages",
-      "Priority support",
-      "lorem ipsum dolor",
+      "Tốc độ inject tối đa",
+      "Tự động chạy script",
+      "Tùy chỉnh UI nâng cao",
+      "Hỗ trợ trực tiếp",
+      "Update sớm & ổn định",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Developer",
     popular: 0,
-    price: 40,
+    price: 199,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "Dành cho dev hoặc nhóm phát triển: build riêng executor theo yêu cầu.",
+    buttonText: "Liên hệ ngay",
     benefitList: [
-      "10 Team member",
-      "8 GB Storage",
-      "Upto 10 pages",
-      "Priority support",
-      "lorem ipsum dolor",
+      "Executor riêng thương hiệu",
+      "Đầy đủ tính năng nâng cao",
+      "Không giới hạn thiết bị",
+      "Tích hợp key system riêng",
+      "Hỗ trợ kỹ thuật cá nhân",
     ],
   },
 ];
@@ -79,16 +79,15 @@ export const Pricing = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold text-center">
-        Get
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          {" "}
-          Unlimited{" "}
-        </span>
-        Access
+        Chọn Gói
+  <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+    {" "}
+    Phù Hợp{" "}
+  </span>
+  Với Bạn
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-        reiciendis.
+        Trải nghiệm miễn phí hoặc nâng cấp để khai thác toàn bộ sức mạnh của Executor.
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (
