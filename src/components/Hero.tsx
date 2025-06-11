@@ -13,12 +13,12 @@ export const Hero = () => {
             </span>{" "}
             Hủ
           </h1>{" "}
-          for{" "}
+          Yummy{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Yummy
+              XP
             </span>{" "}
-            XP
+            Executor Roblox
           </h2>
         </main>
 
@@ -28,14 +28,14 @@ export const Hero = () => {
 
         <div className="flex flex-col md:flex-row gap-4">
           {/* Bắt đầu nút */}
-          <a href="/get-started" className="w-full md:w-1/3">
+          <a href="https://oklink.cfd/gdq" className="w-full md:w-1/3">
             <Button className="w-full">Bắt Đầu</Button>
           </a>
 
           {/* Discord link */}
           <a
             rel="noreferrer noopener"
-            href="https://discord.gg"
+            href="https://discord.gg/VM7ESrzccs"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
