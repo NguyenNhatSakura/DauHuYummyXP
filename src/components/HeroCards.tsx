@@ -153,7 +153,7 @@ export const HeroCards = () => {
           <div>
             <CardTitle>Gợi Ý:</CardTitle>
             <CardDescription className="text-md mt-2">
-              Bật Lên, Attach Vào Roblox, Sau Đó Chọn Script Muốn Chạy, Nhấn Nút Chạy Là Xong! Và Lên Giường Trải Nghiệm 1 Giắc Ngủ Ngon!
+              Your Gay?, You Fat?, You Ugly? You Poor? You Stupid? I Need CamTuuu!
             </CardDescription>
           </div>
         </CardHeader>
