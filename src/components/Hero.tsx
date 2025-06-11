@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
-            <span className="inline bg-gradient-to-r from-[#F596D3] to-[#D247BF] text-transparent bg-clip-text">
+            <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Đậu
             </span>{" "}
             Hủ
@@ -27,29 +27,29 @@ export const Hero = () => {
           Tạo Nên Sự Lười Biến Cho Bạn, Và Sự Giàu Có Cho Tôi Và Bạn, Trình Thực Thi Script Roblox PC Miễn Phí, Đến Từ Việt Nam.
         </p>
 
-        <a href="/get-started" className="w-full md:w-1/3">
-  <Button className="w-full">Bắt Đầu</Button>
-</a>
-
+        <div className="space-y-4 md:space-y-0 md:space-x-4">
+          <Button className="w-full md:w-1/3" href="#">Bắt Đầu</Button>
 
           <a
             rel="noreferrer noopener"
-            href="https://discord.gg/3gg"
+            href="https://discord.gg"
             target="_blank"
-            className={buttonVariants({ variant: "outline" }) + " w-full md:w-1/3 text-center"}
+            className={`w-full md:w-1/3 ${buttonVariants({
+              variant: "outline",
+            })}`}
           >
-            Tham Gia Discord
+            Giam Gia Discord
           </a>
         </div>
       </div>
 
-      {/* Hero cards section */}
+      {/* Hero cards sections */}
       <div className="z-10">
         <HeroCards />
       </div>
 
       {/* Shadow effect */}
-      <div className="shadow" />
+      <div className="shadow"></div>
     </section>
   );
 };
