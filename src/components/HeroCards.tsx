@@ -130,9 +130,7 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <a href="https://oklink.cfd/gdq" className="w-full md:w-1/3"></a>
-          <Button className="w-full">Bắt Đầu Ngay</Button>
-          </a>
+          <Button className="w-full">Xem Thêm...</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
