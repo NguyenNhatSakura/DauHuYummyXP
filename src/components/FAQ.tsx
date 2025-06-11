@@ -65,7 +65,7 @@ export const FAQ = () => {
         Bạn vẫn còn thắc mắc?{" "}
         <a
           rel="noreferrer noopener"
-          href="#"
+          href="//fb.com/nguyennhat.dev"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
           Liên hệ với chúng tôi
