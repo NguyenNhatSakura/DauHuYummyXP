@@ -46,7 +46,7 @@ export const HeroCards = () => {
           />
           <CardTitle className="text-center">Nguyễn Minh Nhật</CardTitle>
           <CardDescription className="font-normal text-primary">
-            I Love CamTuuu <3
+            I Love CamTuuu ❤️
           </CardDescription>
         </CardHeader>
 
