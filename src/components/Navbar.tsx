@@ -26,19 +26,19 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#features",
-    label: "Features",
+    label: "Chức Năng",
   },
   {
     href: "#testimonials",
-    label: "Testimonials",
+    label: "Đánh Giá",
   },
   {
     href: "#pricing",
-    label: "Pricing",
+    label: "Gói Bảng Giá",
   },
   {
     href: "#faq",
-    label: "FAQ",
+    label: "Câu Hỏi Thường Gặp",
   },
 ];
 
@@ -55,7 +55,7 @@ export const Navbar = () => {
               className="ml-2 font-bold text-xl flex"
             >
               <LogoIcon />
-              ShadcnUI/React
+              Đậu Hủ Yummy XP
             </a>
           </NavigationMenuItem>
 
@@ -79,7 +79,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    Đậu Hủ Yummy XP
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -94,17 +94,6 @@ export const Navbar = () => {
                       {label}
                     </a>
                   ))}
-                  <a
-                    rel="noreferrer noopener"
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-                    target="_blank"
-                    className={`w-[110px] border ${buttonVariants({
-                      variant: "secondary",
-                    })}`}
-                  >
-                    <GitHubLogoIcon className="mr-2 w-5 h-5" />
-                    Github
-                  </a>
                 </nav>
               </SheetContent>
             </Sheet>
