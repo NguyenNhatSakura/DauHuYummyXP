@@ -23,7 +23,7 @@ export const About = () => {
                 Chúng Tôi
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Chúng tôi là KhuongDua Studio – một nhóm lập trình viên trẻ, đam mê Roblox và luôn mong muốn mang đến những công cụ hỗ trợ tốt nhất cho cộng đồng game thủ Việt. Với mục tiêu xây dựng một môi trường chơi game tự do, sáng tạo và an toàn, chúng tôi đã phát triển Đậu Hủ Yummy Executor – một phần mềm Executor cho Roblox trên PC dễ dùng, hiệu quả và bảo mật.
+                Chúng tôi là KhuongDua Studio – một nhóm lập trình viên trẻ, đam mê Roblox và luôn mong muốn mang đến những công cụ hỗ trợ tốt nhất cho cộng đồng game thủ Việt. Với mục tiêu xây dựng một môi trường chơi game tự do, sáng tạo và an toàn, chúng tôi đã phát triển GodsWave – một phần mềm Executor cho Roblox trên PC dễ dùng, hiệu quả và bảo mật.
               </p>
             </div>
 

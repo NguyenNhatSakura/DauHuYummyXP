@@ -152,7 +152,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2025 Đậu Hủ Yummy - Desginer By{" "}
+          &copy; 2025 GodsWave - Desginer By{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
