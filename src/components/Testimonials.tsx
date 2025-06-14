@@ -60,11 +60,11 @@ export const Testimonials = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold">
-  Khám Phá Lý Do
+  Được Đánh Giá Cao Bởi{" "}
   <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-    {" "} Người Dùng Yêu Thích {" "}
+    {" "} Người Dùng {" "}
   </span>
-  Trang Web Này
+  Đang Sử Dụng
 </h2>
 
 <p className="text-xl text-muted-foreground pt-4 pb-8">
