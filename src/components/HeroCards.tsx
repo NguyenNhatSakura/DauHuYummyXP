@@ -126,9 +126,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Gợi Ý:</CardTitle>
+            <CardTitle>Slogan:</CardTitle>
             <CardDescription className="text-md mt-2">
-              Tạo Nên Sự Lười Biến Và Giàu Có Cho Bạn Và Tôi, Khai Thác Tối Đa Sức Mạnh Cheat Roblox.
+              Ê Mày Ơi, Lười Cày Quá, Hay Là Tải GodsWave Về Chở Thành Cụt Tay Nhề :D
             </CardDescription>
           </div>
         </CardHeader>
