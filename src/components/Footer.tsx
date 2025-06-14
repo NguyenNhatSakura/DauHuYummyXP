@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            Đậu Hủ Yummy XP
+            GodsWave
           </a>
         </div>
 
@@ -22,7 +22,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/NguyenNhatSakura/DauHuYummyXP"
+              href="https://github.com/NguyenNhatSakura/GodsWave"
               className="opacity-60 hover:opacity-100"
             >
               Github

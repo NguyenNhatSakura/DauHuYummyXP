@@ -19,7 +19,7 @@ export const Newsletter = () => {
       </span>
     </h3>
     <p className="text-xl text-muted-foreground text-center mt-4 mb-8">
-      Đăng ký để nhận thông báo về bản cập nhật mới, script hot và ưu đãi độc quyền từ Đậu Hủ Yummy!
+      Đăng ký để nhận thông báo về bản cập nhật mới, script hot và ưu đãi độc quyền từ GodsWave!
     </p>
 
     <form
