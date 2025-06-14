@@ -9,16 +9,12 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Đậu
-            </span>{" "}
-            Hủ
-          </h1>{" "}
-          Yummy{" "}
+              Gods
+            </span>
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              XP
-            </span>{" "}
-            Executor Roblox
+              Wave
+            </span>
           </h2>
         </main>
 

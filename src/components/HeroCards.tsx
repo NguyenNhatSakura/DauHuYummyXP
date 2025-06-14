@@ -128,7 +128,7 @@ export const HeroCards = () => {
           <div>
             <CardTitle>Gợi Ý:</CardTitle>
             <CardDescription className="text-md mt-2">
-              Your Gay?, You Fat?, You Ugly? You Poor? You Stupid? I Need CamTuuu!
+              Tạo Nên Sự Lười Biến Và Giàu Có Cho Bạn Và Tôi, Khai Thác Tối Đa Sức Mạnh Cheat Roblox.
             </CardDescription>
           </div>
         </CardHeader>

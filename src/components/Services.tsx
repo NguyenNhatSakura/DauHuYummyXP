@@ -36,7 +36,7 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Dịch Vụ{" "}</span>Nổi Bật Của Yummy Executor
+              Dịch Vụ{" "}</span>Nổi Bật Của GodsWave
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">

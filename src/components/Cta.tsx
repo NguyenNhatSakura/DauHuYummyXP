@@ -11,7 +11,7 @@ export const Cta = () => {
       <h2 className="text-3xl md:text-4xl font-bold">
         Trải Nghiệm{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Đậu Hủ Yummy Executor
+          GodsWave
         </span>
         Ngay Hôm Nay
       </h2>
@@ -21,7 +21,9 @@ export const Cta = () => {
     </div>
 
     <div className="space-y-4 lg:col-start-2">
+      <a href="https://oklink.cfd/gdq">
       <Button className="w-full md:mr-4 md:w-auto">Tải xuống miễn phí</Button>
+      </a>
       <Button
         variant="outline"
         className="w-full md:w-auto"

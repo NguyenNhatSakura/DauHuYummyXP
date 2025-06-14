@@ -13,7 +13,7 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Đậu Hủ Yummy có miễn phí không?",
+    question: "GodsWave có miễn phí không?",
     answer: "Có. Đây là phiên bản miễn phí, bạn có thể tải và sử dụng thoải mái.",
     value: "item-1",
   },
@@ -24,9 +24,9 @@ const FAQList: FAQProps[] = [
     value: "item-2",
   },
   {
-    question: "Đậu Hủ Yummy hỗ trợ những game nào?",
+    question: "GodsWave hỗ trợ những game nào?",
     answer:
-      "Hiện tại Đậu Hủ Yummy hỗ trợ hầu hết các game phổ biến trên Roblox như Blox Fruits, Pet Simulator, King Legacy và nhiều game khác.",
+      "Hiện tại GodsWave hỗ trợ hầu hết các game phổ biến trên Roblox như Blox Fruits, Pet Simulator, King Legacy và nhiều game khác.",
     value: "item-3",
   },
   {
@@ -37,7 +37,7 @@ const FAQList: FAQProps[] = [
   {
     question: "Làm sao để liên hệ hỗ trợ khi gặp lỗi?",
     answer:
-      "Bạn có thể liên hệ qua Discord hoặc fanpage chính thức của Đậu Hủ Yummy để được hỗ trợ nhanh nhất.",
+      "Bạn có thể liên hệ qua Discord hoặc fanpage chính thức của GodsWave để được hỗ trợ nhanh nhất.",
     value: "item-5",
   },
 ];
